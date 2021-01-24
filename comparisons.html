@@ -11,40 +11,45 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" style="background-color:aliceblue;" href="index.html">Latitude</a>
-      <button class="navbar-toggler" border border-white type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar-expand-lg navbar-light bg-light nav-color navbar nav">
+    <a class="navbar-brand" href="index.html">Latitude</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="navbarSupportedContent" aria-controls="navbarSupportedContent" 
+            aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Plots
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                <a class="dropdown-item" href="humidity.html">Humidity</a>
-                <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
-                </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="comparisons.html">Comparisons</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
-            </li>
-          </ul>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="nav navbar-nav navbar-right">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Plots
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
+                  <a class="dropdown-item" href="humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+                  <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+                </ul>
+              </li>
+    
+            
+              <li class="nav-item active">
+                <a class="nav-link" href="comparisons.html">Comparisons</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+  </nav>
 
     <div class="container">
         <div class="row">
             <div class="box">
                 <h3 class="title">Comparison: Latitude vs X</h3>
                 <hr>
+                <p>Click any plot to get an in-depth analysis.</p>
                 <div class="container" style="padding-bottom: 40px;">
                     <div class="row">
                       <div class="col-lg-6" style="padding: 30px;">
