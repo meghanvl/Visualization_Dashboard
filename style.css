@@ -1,21 +1,22 @@
 body {
   background-color: #EDEDED; 
-  color: white;
 }
 
 /* navigation bar */
 .navbar-brand { 
   margin-left: 30px; 
   padding: inherit; 
-  font-weight: bold;
-  background-color:#0BADA6;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  /* font-weight: bold; */
+  color: white;
+  background-color: #09a79f;
+  font-family: Georgia, 'Times New Roman', Times, serif, Arial;
 }
 
-/* a {
-  color: #6D8092;
+/* plots, comparison, data */
+a {
+  color:gray;
   font-size: 15px; 
-} */
+}
 
 /* image size */
 img {
@@ -25,21 +26,21 @@ img {
 
 /* border when selecting image */
 .active, .panel:hover {
-  border-color:#0BADA6;
+  border-color:#09a79f;
   border-style: solid; 
 }
 
 /* box titles */
 .title {
-  color: #0BADA6;  
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #09a79f;  
+  font-family: Georgia, 'Times New Roman', Times, serif, Arial;
   font-weight: bolder; 
   padding-top: 25px; 
 }
 
 /* paragraph font and color */
 p {
-color: #6D8092;
+color:gray;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px; 
 }
@@ -55,7 +56,7 @@ font-size: 17px;
 
 @media(max-width: 992px) {
 .navbar-expand-lg{
-background-color: #0BADA6;
+background-color: #09a79f;
 }
 
 .navbar {
