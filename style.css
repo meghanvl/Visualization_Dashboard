@@ -24,6 +24,12 @@ img {
   height: 100%;
 }
 
+.image-index {
+  width: 50%;
+  height: 50%;
+  float:left;
+}
+
 /* border when selecting image */
 .active, .panel:hover {
   border-color:#09a79f;
