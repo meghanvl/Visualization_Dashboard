@@ -72,12 +72,3 @@ background-color: #09a79f;
 .navbar-brand {
   padding: 10px; 
 }
-
-button { 
-  margin-right: 30px; 
-}
-
-button: :focus{
-  outline: 1px dotted;
-  outline: 5px auto -webkit-focusring-color;
-}
