@@ -2,6 +2,7 @@ body {
   background-color: #EDEDED; 
 }
 
+/* navigation bar */
 .navbar-brand { 
   margin-left: 30px; 
   padding: inherit; 
@@ -15,17 +16,19 @@ body {
   font-size: 15px; 
 } */
 
+/* image size */
 img {
   width: 100%;
   height: 100%;
 }
 
+/* border when selecting image */
 .active, .panel:hover {
   border-color:#0BADA6;
   border-style: solid; 
 }
 
-
+/* box titles */
 .title {
   color: #0BADA6;  
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -33,12 +36,14 @@ img {
   padding-top: 25px; 
 }
 
+/* paragraph font and color */
 p {
 color: #6D8092;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 17px; 
 }
 
+/* box sizing */
 .box {
   margin-top: 10px; 
   margin-bottom: 62px; 
