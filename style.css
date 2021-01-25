@@ -1,5 +1,6 @@
 body {
   background-color: #EDEDED; 
+  color: white;
 }
 
 /* navigation bar */
@@ -7,7 +8,7 @@ body {
   margin-left: 30px; 
   padding: inherit; 
   font-weight: bold;
-  background-color: #0BADA6;
+  background-color:#0BADA6;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
