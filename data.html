@@ -13,18 +13,18 @@
     <!-- navbar -->
     <nav class="navbar-expand-lg navbar-light bg-light nav-color navbar nav">
         <a class="navbar-brand" href="index.html">Latitude</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="#navbarNavDropdown" 
           aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-          <div class="collapse navbar-collapse justify-content-end" id="#navbarSupportedContent">
+          <div class="collapse navbar-collapse justify-content-end" id="#navbarNavDropdown">
             <div class="nav navbar-nav navbar-right">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Plots
                   </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
                     <a class="dropdown-item" href="humidity.html">Humidity</a>
                     <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
@@ -55,30 +55,246 @@
                 <table class="table table-striped">
                     <thead>
                       <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">First</th>
-                        <th scope="col">Last</th>
-                        <th scope="col">Handle</th>
+                        <th scope="col">City_ID</th>
+                        <th scope="col">City</th>
+                        <th scope="col">Cloudiness</th>
+                        <th scope="col">Country</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Humidity</th>
+                        <th scope="col">Lat</th>
+                        <th scope="col">Lng</th>
+                        <th scope="col">Max Temp</th>
+                        <th scope="col">Wind Speed</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
+                        <th scope="row">0</th>
+                        <td>jacareacanga</td>
+                        <td>0</td>
+                        <td>BR</td>
+                        <td>1528902000</td>
+                        <td>62</td>
+                        <td>-6.22</td>
+                        <td>-57.76</td>
+                        <td>89.6</td>
+                        <td>6.93</td>
+                      </tr>
+                      <tr>
                         <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
+                        <td>kaitangata</td>
+                        <td>100</td>
+                        <td>NZ</td>
+                        <td>1528905304</td>
+                        <td>94</td>
+                        <td>-46.28</td>
+                        <td>169.85</td>
+                        <td>42.61</td>
+                        <td>5.64</td>
                       </tr>
                       <tr>
                         <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
                       </tr>
                       <tr>
                         <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
+                        <td>lata</td>
+                        <td>76</td>
+                        <td>IN</td>
+                        <td>1528905305</td>
+                        <td>89</td>
+                        <td>30.78</td>
+                        <td>78.62</td>
+                        <td>59.89</td>
+                        <td>0.94</td>
+                      </tr>                    
+                      <tr>
+                        <th scope="row">4</th>
+                        <td>chokurdakh</td>
+                        <td>0</td>
+                        <td>RU</td>
+                        <td>1528905306</td>
+                        <td>88</td>
+                        <td>70.62</td>
+                        <td>147.9</td>
+                        <td>32.17</td>
+                        <td>2.95</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">5</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">6</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">7</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">8</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">9</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">10</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">11</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">12</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">13</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">14</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">15</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">16</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">17</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">18</th>
+                        <td>goulburn</td>
+                        <td>20</td>
+                        <td>AU</td>
+                        <td>1528905078</td>
+                        <td>91</td>
+                        <td>-34.75</td>
+                        <td>149.72</td>
+                        <td>44.32</td>
+                        <td>10.11</td>
                       </tr>
                     </tbody>
                   </table>
