@@ -6,8 +6,6 @@ body {
 .navbar-brand { 
   margin-left: 30px; 
   padding: inherit; 
-  font-weight:bold;
-  color: white;
   background-color: #09a79f;
   font-family: Georgia, 'Times New Roman', Times, serif, Arial;
 }
@@ -24,6 +22,7 @@ img {
   height: 100%;
 }
 
+/* summary image size and location */
 .image-index {
   width: 50%;
   height: 50%;

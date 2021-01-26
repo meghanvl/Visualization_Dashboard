@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <title>Visualization Dashboard</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
+
+      
 
 </head>
 
@@ -51,47 +54,53 @@
     <!-- containers -->
     <!-- left box -->
     <div class="container">
-      
-        <div class="row">
-          <div class="col-lg-7 col-md-12">
-            <div class="box">
-              <h3 class="title">Summary: Latitude vs. X</h3>
-              <hr>
-                <img class="img-thumbnail pull-left image-index" src="Resources/Assets/Images/Fig1.png" alt="Max Temperature Graph">
-                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we 
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+          <div class="box">
+            <h3 class="title">Summary: Latitude vs. X</h3>
+            <hr>
+              <img class="image-index" src="Resources/Assets/Images/Fig1.png" alt="Max Temperature Graph">
+              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we 
                 first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
+              <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:
                 temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis,
                 as well as explanations and descriptions of any trends and correlations witnessed.</p>
-              </div>
           </div>
+        </div>
+
           <div class="col-lg-5 col col-md-12">
             <div class="box">
               <h5 class="title">Visualizations</h5>
               <hr>
-              <div class="col-6">
-                <a href="max_temp.html">
+              
+              <div class="row" style="padding-bottom: 30px;">
+                <div class="col-6">
+                  <a href="max_temp.html">
                   <img class="panel" src="Resources/assets/images/Fig1.png" alt="Max Temperature Visualization">
-                </a>
-              </div>
+                  </a>
+                </div>
   
-              <div class="col-6">
-                <a href="humidity.html">
+                <div class="col-6">
+                  <a href="humidity.html">
                   <img class="panel" src="Resources/assets/images/Fig2.png" alt="Humidity Visualization">
-                </a>
+                  </a>
+                </div>
               </div>
 
-              <div class="row"></div>
-              <div class="col-6">
+              <div class="row" style="padding-bottom: 30px;">
+                <div class="col-6">
                 <a href="cloudiness.html">
                   <img class="panel" src="Resources/assets/images/Fig3.png" alt="Cloudiness Visualization">
                 </a>
+                </div>
               </div>
-  
-              <div class="col-6">
-                <a href="windspeed.html">
-                  <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph Visualization">
-                </a>
+
+              <div class="row" style="padding-bottom: 30px;">
+                <div class="col-6">
+                  <a href="windspeed.html">
+                    <img class="panel" src="Resources/assets/images/Fig4.png" alt="Wind Speed Graph Visualization">
+                  </a>
+                </div>
               </div>
             </div>
                 
@@ -100,10 +109,9 @@
       </div>
 
 
-    <!-- <script type="text/javascript" src="Scripts/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script> -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <!-- <script src="jq/jquery-2.1.1.min.js"></script>
+      <script src="js/bootstrap.min.js"></script> -->
+
 </body>
 
 
